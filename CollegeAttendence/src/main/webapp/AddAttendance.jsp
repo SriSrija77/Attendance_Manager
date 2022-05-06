@@ -51,7 +51,6 @@ while(r1.next())
 {
 	subjects.add(r1.getString("subname"));
 }
-
 PreparedStatement ps1=con.prepareStatement("select StudentId from student where Branch=? and Year=? and Sec=?");
 ps1.setString(1,branch);
 ps1.setString(2,year);
