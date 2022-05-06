@@ -29,20 +29,22 @@ public class ValidateAdmin extends HttpServlet {
 		String password=request.getParameter("psw");
 		String role=request.getParameter("role");
 		HttpSession mysession=request.getSession();
+		// Admin
 		if(role.equals("admin"))
 		{
-		if(email.equals("admin")&&password.equals("admin"))
-		{
-			mysession.removeAttribute("errorMessage");
-			response.sendRedirect("AdminNavbar.jsp");
+			if(email.equals("admin")&&password.equals("admin"))
+			{
+				mysession.removeAttribute("errorMessage");
+				response.sendRedirect("AdminNavbar.jsp");
+			}
+			else
+			{
+				mysession.setAttribute("errorMessage","Invalid credentials");
+				out.println(mysession.getAttribute("errorMessage"));
+				response.sendRedirect("Login.jsp");
+			}
 		}
-		else
-		{
-			mysession.setAttribute("errorMessage","Invalid credentials");
-			out.println(mysession.getAttribute("errorMessage"));
-			response.sendRedirect("Login.jsp");
-		}
-		}
+		//Faculty
 		else if(role.equals("faculty"))
 		{
 	        try {
