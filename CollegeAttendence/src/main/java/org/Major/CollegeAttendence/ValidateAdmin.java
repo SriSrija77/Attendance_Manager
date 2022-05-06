@@ -72,7 +72,7 @@ public class ValidateAdmin extends HttpServlet {
 	            e.printStackTrace(); 
 	        }
 		}
-
+		//Student
 		else if(role.equals("student"))
 		{
 		
