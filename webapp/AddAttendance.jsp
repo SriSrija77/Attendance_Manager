@@ -88,4 +88,19 @@ out.println("<span><a href='FacultyNavbar.jsp' style='padding:0px 0px 0px 10px;f
 		out.println("<td></tr>");
 		
 	}
+	out.println("</table>");
+	out.println("<input type='submit' name='submit'>");
+	
+	out.println("</form></center></body>");
+	}
+	else
+	{
+		System.out.println("Hi");
+		out.println("<h1 align='center'>Empty Data</h1><br><h1 align='center'><a href='FacultyNavbar.jsp'>Back</a></h1>");
+	}
+
+%>
+</center>
+</body>
+</html>
 	
