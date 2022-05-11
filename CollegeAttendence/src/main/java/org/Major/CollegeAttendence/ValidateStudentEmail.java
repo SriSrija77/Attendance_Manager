@@ -17,8 +17,8 @@ import org.Major.CollegeAttendence.DatabaseConnection;
 /*
  * Note: This file is used for Servlet implementation class Validate Student Email
  * Name: Viraj Panchal
+ * 
  */
-
 public class ValidateStudentEmail extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	protected void doPost(HttpServletRequest request,HttpServletResponse response) throws ServletException, IOException{ 
@@ -29,8 +29,7 @@ public class ValidateStudentEmail extends HttpServlet {
 		
 		 try {
 	            Connection con = DatabaseConnection.initializeDatabase(); 
-	            PreparedStatement st = con 
-	                   .prepareStatement("select StudentEMail from student where StudentId=?"); 
+	            PreparedStatement st = con.prepareStatement("select StudentEMail from student where StudentId=?"); 
 	            st.setString(1, email); 
 	            ResultSet rs=st.executeQuery(); 
 	            if(rs.next())
@@ -48,12 +47,12 @@ public class ValidateStudentEmail extends HttpServlet {
 		            }
 	            }
 	            
-	            st.close(); 
-	            con.close();   
-	        } 
-	        catch (Exception e) { 
-	            e.printStackTrace(); 
-	        }
+            st.close(); 
+            con.close();   
+	    } catch (Exception e) { 
+	    	System.out.print("ValidateStudentEmail Error"+e);
+            e.printStackTrace(); 
+        }
 	}
 
 }

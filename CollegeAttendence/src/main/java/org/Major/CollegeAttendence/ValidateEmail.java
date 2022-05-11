@@ -18,7 +18,6 @@ import org.Major.CollegeAttendence.DatabaseConnection;
  * Note: This file is used for Servlet implementation class Validate Faculty Email
  * Name: Viraj Panchal
  */
-
 public class ValidateEmail extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	protected void doPost(HttpServletRequest request,HttpServletResponse response) throws ServletException, IOException{ 
@@ -48,12 +47,12 @@ public class ValidateEmail extends HttpServlet {
 		            }
 	            }
 	            
-	            st.close(); 
-	            con.close();   
-	        } 
-	        catch (Exception e) { 
-	            e.printStackTrace(); 
-	        }
+            st.close(); 
+            con.close();   
+        } catch (Exception e) { 
+        	System.out.print("ValidateFacultyEmail Error"+e);
+            e.printStackTrace(); 
+        }
 	}
 
 }

@@ -18,11 +18,7 @@ import org.Major.CollegeAttendence.DatabaseConnection;
  * Note: This file is used for Servlet implementation class ValidateAdmin
  * Name: Viraj Panchal
  */
-/**
- * 
- */
-
-// Validate Admin Class 
+ 
 public class ValidateAdmin extends HttpServlet {
 	
 	private static final long serialVersionUID = 1L;
@@ -105,7 +101,9 @@ public class ValidateAdmin extends HttpServlet {
 	            con.close();   
 	        } 
 	        catch (Exception e) { 
+	        	System.out.print("ValidateAdmin Error"+e);
 	            e.printStackTrace(); 
+	            
 	        }
 		}
 
