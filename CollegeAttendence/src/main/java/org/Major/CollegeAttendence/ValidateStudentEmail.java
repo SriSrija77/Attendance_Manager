@@ -14,10 +14,11 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
 import org.Major.CollegeAttendence.DatabaseConnection;
-
-/**
- * Servlet implementation class ValidateAdmin
+/*
+ * Note: This file is used for Servlet implementation class Validate Student Email
+ * Name: Viraj Panchal
  */
+
 public class ValidateStudentEmail extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	protected void doPost(HttpServletRequest request,HttpServletResponse response) throws ServletException, IOException{ 

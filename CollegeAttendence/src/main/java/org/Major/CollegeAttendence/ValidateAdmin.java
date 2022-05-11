@@ -14,9 +14,12 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
 import org.Major.CollegeAttendence.DatabaseConnection;
-
+/*
+ * Note: This file is used for Servlet implementation class ValidateAdmin
+ * Name: Viraj Panchal
+ */
 /**
- * Servlet implementation class ValidateAdmin
+ * 
  */
 
 // Validate Admin Class 
