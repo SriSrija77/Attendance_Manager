@@ -37,7 +37,8 @@ color:#000066;
 	<li class="menu" style="padding:0px 10px 0px 10px;"><a onclick="document.getElementById('id02').style.display='block'"><strong>Add Student</strong></a></li>
 	<li class="menu" style="padding:0px 10px 0px 10px;"><a onclick="document.getElementById('id03').style.display='block'"><strong>Add Subject</strong></a></li>
 	<li class="menu" style="padding:0px 10px 0px 10px;"><a href="AdminDashboard.jsp"><strong>View Attendance</strong></a></li>
-    <li class="menu" style="padding:0px 10px 0px 350px;"><a href="Logout.jsp" style="float:right;"><strong>Back</strong></a></li>
+	<!-- Change by: Viraj Panchal; Changed the button name from Back to Logout -->
+    <li class="menu" style="padding:0px 10px 0px 350px;"><a href="Logout.jsp" style="float:right;"><strong>Logout</strong></a></li>
 </ol>
 </div>
 
