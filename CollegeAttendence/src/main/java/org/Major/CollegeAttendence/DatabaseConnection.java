@@ -12,23 +12,31 @@ public class DatabaseConnection {
     public static Connection initializeDatabase() 
         throws SQLException, ClassNotFoundException 
     { 
-    	// Added db driver
-        String dbDriver = "com.mysql.cj.jdbc.Driver"; 
-    	// Added db url
-        String dbURL = "jdbc:mysql://localhost:3306/";
-    	// Added db name
-        String dbName = "attendancereport";
-    	// Added db username
-        String dbUsername = "root";
-    	// Added db password
-        String dbPassword = ""; 
-  
-        Class.forName(dbDriver);
-        
-        // Connection
-        Connection con = DriverManager.getConnection(dbURL + dbName, 
-                                                     dbUsername,  
-                                                     dbPassword); 
-        return con; 
+    	Connection con=null;
+    	try {
+    		// Added db driver
+            String dbDriver = "com.mysql.cj.jdbc.Driver"; 
+        	// Added db url
+            String dbURL = "jdbc:mysql://localhost:3306/";
+        	// Added db name
+            String dbName = "attendancereport";
+        	// Added db username
+            String dbUsername = "root";
+        	// Added db password
+            String dbPassword = ""; 
+      
+            Class.forName(dbDriver);
+            
+            // Connection
+            con = DriverManager.getConnection(dbURL + dbName, 
+                                                         dbUsername,  
+                                                         dbPassword); 
+            
+    	} catch(SQLException e) {
+    		System.out.print("SQL Exception"+e);
+			e.printStackTrace();
+    	}
+    	
+    	return con; 
     } 
 } 
