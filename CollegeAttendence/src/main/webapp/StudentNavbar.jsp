@@ -34,7 +34,7 @@ color:#000066;
 <ol >
 	<li class="menu" style="padding:0px 10px 0px 10px;"><a href="StudentDashboard.jsp"><strong>View Attendance</strong></a></li>
 	<li class="menu" style="padding:0px 10px 0px 10px;"><a href="ChangePasswordStudent.jsp"><strong>Change Password</strong></a></li>
-    <li class="menu" style="padding:0px 10px 0px 550px;"><a href="Logout.jsp" style="float:right;"><strong>Back</strong></a></li>
+    <li class="menu" style="padding:0px 10px 0px 550px;"><a href="Logout.jsp" style="float:right;"><strong>Logout</strong></a></li>
 </ol>
 </div>
 
