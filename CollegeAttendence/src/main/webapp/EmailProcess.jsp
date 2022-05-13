@@ -6,8 +6,8 @@
 <%@page import="java.net.URLConnection"%>
 <%@page import=" java.net.URLEncoder"%>
 <%@page import="java.util.*"%>   
-<%@page  import="javax.mail.*"%>
-<%@page  import="javax.mail.internet.*"%> 
+<%@page import="javax.mail.*"%>
+<%@page import="javax.mail.internet.*"%> 
 <%@page import="javax.activation.*" %>  
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 pageEncoding="ISO-8859-1"%>
@@ -22,8 +22,8 @@ pageEncoding="ISO-8859-1"%>
 
 String name=request.getParameter("name");
 String emailto=(String)session.getAttribute("finalemail");
-final String user="akankshabhaiyya0508@gmail.com";//change accordingly  
-final String password="Akankshagmail@123";//change accordingly  
+final String user="srisrijasomavarapu@gmail.com";//change accordingly  
+final String password="srisrijagmail@123";//change accordingly  
 Properties properties = System.getProperties();  
 properties.setProperty("mail.smtp.host", "smtp.gmail.com");  
 properties.put("mail.smtp.auth", "true"); 
