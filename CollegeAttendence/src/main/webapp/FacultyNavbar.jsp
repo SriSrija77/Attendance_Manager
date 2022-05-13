@@ -35,7 +35,7 @@ color:#000066;
 	<li class="menu" style="padding:0px 10px 0px 10px;"><a onclick="document.getElementById('id01').style.display='block'"><strong>Add Attendance</strong></a></li>
 	<li class="menu" style="padding:0px 10px 0px 10px;"><a href="FacultyDashboard.jsp"><strong>View Attendance</strong></a></li>
 	<li class="menu" style="padding:0px 10px 0px 10px;"><a href="changePassword.jsp"><strong>Change Password</strong></a></li>
-    <li class="menu" style="padding:0px 10px 0px 400px;"><a href="Logout.jsp" style="float:right;"><strong>Back</strong></a></li>
+    <li class="menu" style="padding:0px 10px 0px 400px;"><a href="Logout.jsp" style="float:right;"><strong>Logout</strong></a></li>
 </ol>
 </div>
 <div id="id01" class="modal">
