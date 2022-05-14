@@ -5,7 +5,8 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <link rel="stylesheet" href="style.css">
-<title>Insert title here</title>
+<!-- Title Added: Viraj -->
+<title>Attendance Manager</title>
 <style>
 input[type=text]{
 background-color:#ccccff;
@@ -26,7 +27,7 @@ String year=(String)session.getAttribute("year");
 String section=(String)session.getAttribute("section");
 String facultyId=(String)session.getAttribute("facultyid");
 String subject=request.getParameter("subjects");
-System.out.println(subject+""+branch+" "+year+" "+section);
+//System.out.println(subject+""+branch+" "+year+" "+section);
 SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
 Date d2=new Date();
 String date=sdf.format(d2);
@@ -48,8 +49,8 @@ while(itr.hasNext())
 	
 	String studId=(String)itr.next();
 	String status=map.get(studId);
-	System.out.println(studId);
-	System.out.println(status);
+	//System.out.println(studId);
+	//System.out.println(status);
 	try {
 		
 		Connection con = DriverManager.getConnection(dbURL + dbName, 
