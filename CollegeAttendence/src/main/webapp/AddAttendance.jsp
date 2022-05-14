@@ -5,7 +5,8 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <link rel="stylesheet" href="style.css">
-<title>Insert title here</title>
+<!-- Title Added: Viraj -->
+<title>Attendance Manager</title>
 <style>
 input[type=text]{
 background-color:#ccccff;
@@ -94,7 +95,7 @@ out.println("<span><a href='FacultyNavbar.jsp' style='padding:0px 0px 0px 10px;f
 	}
 	else
 	{
-		System.out.println("Hi");
+		//System.out.println("Hi");
 		out.println("<h1 align='center'>Empty Data</h1><br><h1 align='center'><a href='FacultyNavbar.jsp'>Back</a></h1>");
 	}
 
