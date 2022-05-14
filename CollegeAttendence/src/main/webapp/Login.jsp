@@ -4,7 +4,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <link rel="stylesheet" href="style.css">
-<title>Insert title here</title>
+<title>Attendance Manager</title>
 </head>
 <body >
 <center>
@@ -20,12 +20,12 @@ session.removeAttribute("errorMessage");
 <tr>
   <div class="container">
    <td>
-   <input type="text" placeholder="Name" name="name" required>
+   <input type="text" placeholder="User Id" name="name" required>
    </td>
    </tr>
    <tr>
    <td>
-   <input type="password" placeholder="password" name="psw" required>
+   <input type="password" placeholder="Password" name="psw" required>
    </td>
    </tr>
    <tr><td>

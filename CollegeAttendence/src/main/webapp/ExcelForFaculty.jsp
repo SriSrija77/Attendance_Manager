@@ -11,7 +11,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>Attendance Manager</title>
 
 <style>
 td{
@@ -43,7 +43,7 @@ double temp=0;
 try {
 	int row=0;
 	String namefile=branch+"-"+facultyid+"-"+branch+"-"+year+"-"+section+"-"+datestring1;
-	String filename="G:/CollegeAttendence//"+namefile+".xls" ;
+	String filename="C:/CollegeAttendence//"+namefile+".xls" ;
 	HSSFWorkbook hwb=new HSSFWorkbook();
 	HSSFSheet sheet =  hwb.createSheet("new sheet");
 	//HSSFRow rowhead=   sheet.createRow((short)0);

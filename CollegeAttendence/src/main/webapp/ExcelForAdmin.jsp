@@ -14,7 +14,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>Attendance Manager</title>
 
 <style>
 td{
@@ -45,7 +45,7 @@ double temp=0;
 
 try {
 	int row=0;
-	String filename="G:/CollegeAttendence//"+year+"_"+branch+"_"+section+"_Release"+datestring1+".xls" ;
+	String filename="C:/CollegeAttendence//"+year+"_"+branch+"_"+section+"_Release"+datestring1+".xls" ;
 	HSSFWorkbook hwb=new HSSFWorkbook();
 	HSSFSheet sheet =  hwb.createSheet("new sheet");
 	Connection con = DriverManager.getConnection(dbURL + dbName, 

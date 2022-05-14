@@ -5,7 +5,8 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <link rel="stylesheet" href="style.css">
-<title>Insert title here</title>
+<!-- Title Added: Viraj -->
+<title>Attendance Manager</title>
 </head>
 <body>
 <div style="opacity:0.9;border:0px solid black;background-color:#ccccff;margin:60px 200px;padding:0px;">

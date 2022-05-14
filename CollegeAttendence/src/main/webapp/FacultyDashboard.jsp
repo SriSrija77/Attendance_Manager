@@ -5,7 +5,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <link rel="stylesheet" href="style.css">
-<title>Insert title here</title>
+<title>Attendance Manager</title>
 <style>
 h2,td{
 color:#000066;
