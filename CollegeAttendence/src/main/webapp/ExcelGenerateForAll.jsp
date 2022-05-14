@@ -71,7 +71,7 @@ try {
 		//out.println("<caption><b>VJIT<br><br>Attendance Report<br>"+studentid+"<br>From : "+startdate+"To : "+enddate+"</b></caption>");
 		sheet.addMergedRegion(new CellRangeAddress(0,0,0,arr.size()+2));
 	HSSFRow rowhead= sheet.createRow((short)row++);
-	rowhead.createCell((short) 0).setCellValue("VJIT");
+	rowhead.createCell((short) 0).setCellValue("College Name");
 	Cell cell=sheet.getRow(0).getCell(0);
 	CellStyle cellstyle=hwb.createCellStyle();
 	cellstyle.setAlignment(HorizontalAlignment.CENTER);
