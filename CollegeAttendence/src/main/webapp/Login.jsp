@@ -30,7 +30,7 @@ session.removeAttribute("errorMessage");
    </tr>
    <tr><td>
    <input type="radio" name="role" value="admin" required><strong id="val">Admin</strong>
-        <input type="radio" name="role" value="faculty"><strong id="val"">Faculty</strong>
+        <input type="radio" name="role" value="faculty"><strong id="val">Faculty</strong>
         <input type="radio" name="role" value="student"><strong id="val">Student</strong>
    </td>
    </tr>
