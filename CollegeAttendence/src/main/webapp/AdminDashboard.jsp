@@ -58,7 +58,7 @@
    <td ><strong>Select End Date</strong></td>
     <td><input type="date" name="enddate" placeholder="enddate" required></td>
    </tr>
-    <tr><td colspan='2' align='center'><button type="submit" ">GenerateInfo</button></td></tr>
+    <tr><td colspan='2' align='center'><button type="submit">GenerateInfo</button></td></tr>
     
   </div>
   </table>
