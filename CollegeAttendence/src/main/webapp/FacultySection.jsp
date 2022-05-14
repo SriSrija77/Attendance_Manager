@@ -67,7 +67,7 @@ out.println("</select>");
    <td><strong>Select EndDate</strong></td>
     <td><input type="date" name="enddate" placeholder="enddate" required></td>
    </tr>
-    <tr><td colspan='2'><button type="submit" ">Submit</button></td></tr>
+    <tr><td colspan='2'><button type="submit" >Submit</button></td></tr>
    </div>
   </table>
 </form>
